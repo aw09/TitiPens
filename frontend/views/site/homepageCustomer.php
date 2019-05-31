@@ -27,7 +27,7 @@ $this->title = 'My Yii Application';
           <br><br>
         <p>Anda dapat melakukan open order untuk menawarkan jasa kepada customer</p>
         <br>
-        <p><button class="button" data-toggle="modal" data-target="#myModal">Make Your Titipan</button></p>
+        <p><a href="<?= Yii::getAlias('@frontendUrl').'/order-tipers'?>"class="button">Make Your Order</a></p>
       </div>
       </div>
     <div class="body-content">

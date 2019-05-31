@@ -96,7 +96,7 @@ class SiteController extends Controller
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             if($role == 1){
-              return $this->redirect(['homepage']);
+              return $this->redirect(['tipers']);
             }
             if($role == 2){
               return $this->redirect(['customer']);
@@ -176,7 +176,7 @@ class SiteController extends Controller
         ]);
     }
 
-    public function actionHomepage(){
+    public function actionTipers(){
           $_SESSION['role'] = 1;
           $modelOrder = new Order_Tipers();
           $namalokasi = Lokasi::find()->all();
@@ -207,7 +207,7 @@ class SiteController extends Controller
 
             //return $this->redirect(['view', 'id' => $modelOrder->idordertipers]);
           }
-          return $this->render('create', [
+          return $this->render('createTipers', [
               'modelOrder' => $modelOrder,
               'namalokasi' => $namalokasi,
           ]);

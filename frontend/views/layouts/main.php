@@ -44,26 +44,18 @@ AppAsset::register($this);
                 ];
     }
     else if(isset($_SESSION['role'])) {
-        if($_SESSION['role'] == 1)
-        {
-          $menuItems[] = ['label' => Yii::$app->user->identity->nrp, 'url' => ['/site/homepage']];
-          $menuItems[] = '<li>'
-              . Html::beginForm(['/site/logout'], 'post')
-              // . Html::submitButton( Yii::$app->user->identity->nrp, ['class' => 'btn btn-link about'])
-              . Html::submitButton('Logout', ['class' => 'btn btn-link logout'])
-              . Html::endForm()
-              . '</li>';
+        if($_SESSION['role'] == 1){
+          $menuItems[] = ['label' => Yii::$app->user->identity->nrp, 'url' => ['/site/tipers']];
         }
-        else
-        {
+        else{
           $menuItems[] = ['label' => Yii::$app->user->identity->nrp, 'url' => ['/site/customer']];
-          $menuItems[] = '<li>'
-              . Html::beginForm(['/site/logout'], 'post')
-              // . Html::submitButton( Yii::$app->user->identity->nrp, ['class' => 'btn btn-link about'])
-              . Html::submitButton('Logout', ['class' => 'btn btn-link logout'])
-              . Html::endForm()
-              . '</li>';
         }
+        $menuItems[] = '<li>'
+            . Html::beginForm(['/site/logout'], 'post')
+            // . Html::submitButton( Yii::$app->user->identity->nrp, ['class' => 'btn btn-link about'])
+            . Html::submitButton('Logout', ['class' => 'btn btn-link logout'])
+            . Html::endForm()
+            . '</li>';
 
     }
     echo Nav::widget([
