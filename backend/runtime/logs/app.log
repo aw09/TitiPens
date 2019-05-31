@@ -1,0 +1,75 @@
+2019-05-30 09:56:15 [::1][-][8l6uhkknqvobemlgbpan7892ms][error][Error] Error: Class 'backend\models\WarungSearch' not found in C:\xampp\htdocs\yii-application\backend\controllers\WarungController.php:39
+Stack trace:
+#0 [internal function]: backend\controllers\WarungController->actionIndex()
+#1 C:\xampp\htdocs\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#4 C:\xampp\htdocs\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('warung', Array)
+#5 C:\xampp\htdocs\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-05-30 09:56:15 [::1][-][8l6uhkknqvobemlgbpan7892ms][info][application] $_GET = [
+    'r' => 'warung'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1580773374.1543850908'
+    'advanced-frontend' => 'oe9c0uttmumj220gfv1ktivsip'
+    '_csrf-frontend' => '76dc82d7131233bc99a54fa2388ea197e8695fc7ad55a9ba4eeba805d1b8ae2fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"kAGPNc0K5RcOwPKYPQVXqptCEvv0QYBC\";}'
+    'advanced-backend' => '8l6uhkknqvobemlgbpan7892ms'
+    '_csrf-backend' => '16d0ff416bf024e9d5d4c809162e0f2f30b9d62b370ba5841a74303ba3e7db1da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"6Qa6nyhtawW2M4kRiwxL0LHYUpV3sZid\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii-application/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ms;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1580773374.1543850908; advanced-frontend=oe9c0uttmumj220gfv1ktivsip; _csrf-frontend=76dc82d7131233bc99a54fa2388ea197e8695fc7ad55a9ba4eeba805d1b8ae2fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22kAGPNc0K5RcOwPKYPQVXqptCEvv0QYBC%22%3B%7D; advanced-backend=8l6uhkknqvobemlgbpan7892ms; _csrf-backend=16d0ff416bf024e9d5d4c809162e0f2f30b9d62b370ba5841a74303ba3e7db1da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%226Qa6nyhtawW2M4kRiwxL0LHYUpV3sZid%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Users\\Agung\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Java\\jdk1.8.0_191\\bin;C:\\Users\\Agung\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Agung\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '50428'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=warung'
+    'REQUEST_URI' => '/yii-application/backend/web/index.php?r=warung'
+    'SCRIPT_NAME' => '/yii-application/backend/web/index.php'
+    'PHP_SELF' => '/yii-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1559202975.841
+    'REQUEST_TIME' => 1559202975
+]
