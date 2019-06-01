@@ -9,6 +9,7 @@ use yii\helpers\Html;
 ?>
 
     <?= $this->render('homepageTipers', [
+        'model' => $model,
         'modelOrder' => $modelOrder,
         'namalokasi'=> $namalokasi,
     ]) ?>

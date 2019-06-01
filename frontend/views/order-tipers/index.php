@@ -44,7 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
     					<div class="col-md-3" style="padding-left:50px; margin-bottom:25px;"><img src="<?= Yii::getAlias('@fileUrl').'/'.$user->foto; ?>" class="img-fluid" style="height:160px;width:160px;"/></div>
     					<div class="col-md-6" style="height:160px;width:550px;margin-bottom:25px;">
     						<div class="panel panel-default" style="width:550px;height:160px;border-color:rgb(0,0,0);">
-    							<a href="/projectweb/frontend/web/warung">
+    							<a href="<?=Yii::getAlias('@frontendUrl').'/warung'?>">
     								<div class="panel-heading" style="background-color:rgb(248,217,54);">
     									<h5 class="mb-0" style="color:#000000;"><b><?= $user->nama ?> - <?= $user->jurusan ?></b></h5>
     								</div>
