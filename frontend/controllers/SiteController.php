@@ -219,6 +219,7 @@ class SiteController extends Controller
     public function actionCustomer(){
           $_SESSION['role'] = 2;
           $modelOrder = new Order_Tipers();
+          $mymodel = OrderTipers::find()->all();
           $namalokasi = Lokasi::find()->all();
           $namalokasi = ArrayHelper::map($namalokasi, 'idlokasi','name');
           if ($modelOrder->load(Yii::$app->request->post()) ) {
@@ -248,6 +249,7 @@ class SiteController extends Controller
             //return $this->redirect(['view', 'id' => $modelOrder->idordertipers]);
           }
           return $this->render('createCustomer', [
+              'model' => $mymodel,
               'modelOrder' => $modelOrder,
               'namalokasi' => $namalokasi,
           ]);
