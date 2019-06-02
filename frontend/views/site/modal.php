@@ -12,7 +12,7 @@
         use yii\helpers\Html;
         use yii\helpers\Url;
         use yii\widgets\ActiveForm;
-        use yii\App;        
+        use yii\App;
 
         /* @var $this yii\web\View */
         /* @var $model app\models\Order_Tipers */

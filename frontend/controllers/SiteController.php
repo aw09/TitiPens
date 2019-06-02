@@ -5,7 +5,7 @@ use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
 use yii\helpers\ArrayHelper;
-use frontend\models\Order_Tipers;
+use frontend\models\OrderTipers;
 use frontend\models\Lokasi;
 use yii\base\InvalidArgumentException;
 use yii\web\BadRequestHttpException;
@@ -87,6 +87,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
+
     public function actionLogin($role)
     {
         if (!Yii::$app->user->isGuest) {
@@ -155,7 +156,7 @@ class SiteController extends Controller
     public function actionView($id)
     {
         return $this->render('view', [
-            'model' => Order_Tipers::findOne($id),
+            'model' => OrderTipers::findOne($id),
         ]);
     }
     /**
@@ -178,13 +179,14 @@ class SiteController extends Controller
 
     public function actionTipers(){
           $_SESSION['role'] = 1;
-          $modelOrder = new Order_Tipers();
+          $modelTitipan = OrderTipers::find()->all();
+          $modelOrder = new OrderTipers();
           $namalokasi = Lokasi::find()->all();
           $namalokasi = ArrayHelper::map($namalokasi, 'idlokasi','name');
           if ($modelOrder->load(Yii::$app->request->post()) ) {
               $modelOrder->user_id=1;
               $modelOrder->save();
-              $url = "index.php?r=site%2Fview&id=".$modelOrder->idordertipers;
+              $url = $modelOrder->idordertipers;
               echo SweetAlert::widget([
                   'options' => [
                       'title' => "Order berhasil dibuat",
@@ -208,6 +210,7 @@ class SiteController extends Controller
             //return $this->redirect(['view', 'id' => $modelOrder->idordertipers]);
           }
           return $this->render('createTipers', [
+              'model' => $modelTitipan,
               'modelOrder' => $modelOrder,
               'namalokasi' => $namalokasi,
           ]);
@@ -216,6 +219,7 @@ class SiteController extends Controller
     public function actionCustomer(){
           $_SESSION['role'] = 2;
           $modelOrder = new Order_Tipers();
+          $mymodel = OrderTipers::find()->all();
           $namalokasi = Lokasi::find()->all();
           $namalokasi = ArrayHelper::map($namalokasi, 'idlokasi','name');
           if ($modelOrder->load(Yii::$app->request->post()) ) {
@@ -231,7 +235,7 @@ class SiteController extends Controller
                       'confirmButtonText' => "Detail",
                       'cancelButtonText' => "Close",
                       'closeOnConfirm' => false,
-                      'closeOnCancel' => true
+                      'closeOnCancel' => false,
                   ],
                   'callbackJs' => new \yii\web\JsExpression('function(isConfirm) {
                       if (isConfirm) {
@@ -245,6 +249,7 @@ class SiteController extends Controller
             //return $this->redirect(['view', 'id' => $modelOrder->idordertipers]);
           }
           return $this->render('createCustomer', [
+              'model' => $mymodel,
               'modelOrder' => $modelOrder,
               'namalokasi' => $namalokasi,
           ]);
@@ -272,7 +277,12 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
-
+    public function actionDelete($id)
+    {
+        $delete = OrderTipers::findOne($id);
+        $delete->delete();
+        return $this->redirect(['tipers']);
+    }
     /**
      * Resets password.
      *

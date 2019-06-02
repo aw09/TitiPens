@@ -1,3 +1,6 @@
+<?php
+use yii\helpers\Html;
+ ?>
 <style>
   .button{
     background-color: rgb(0,0,0);
@@ -20,7 +23,20 @@
           <br><br>
         <p>Anda dapat melakukan open order untuk menawarkan jasa kepada customer</p>
         <br>
-        <p><button class="button" data-toggle="modal" data-target="#myModal">Make Your Titipan</button></p>
+        <p>
+          <?php
+          $nums_row=0;
+          foreach ($model as $key) {
+            if($key->user_id == Yii::$app->user->identity->iduser)
+            $idOrder = $key -> idordertipers;
+            $nums_row++;
+          }
+           if($nums_row==0){ ?>
+          <button class="button" data-toggle="modal" data-target="#myModal">Make Your Titipan</button>
+        <?php }else { ?>
+          <?= Html::a('Detail Titipan', [$idOrder], ['class'=>'btn btn-primary btn-block']) ?>
+         <?php } ?>
+        </p>
       </div>
       </div>
     <div class="body-content">
