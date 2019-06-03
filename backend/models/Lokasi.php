@@ -39,8 +39,8 @@ class Lokasi extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idlokasi' => 'Idlokasi',
-            'name' => 'Name',
+            'idlokasi' => 'ID Lokasi',
+            'name' => 'Nama Lokasi',
         ];
     }
 

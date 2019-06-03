@@ -17,6 +17,8 @@ use Yii;
  * @property double $rating
  * @property string $password
  *
+ * @property HistoryCustomer[] $historyCustomers
+ * @property HistoryTipers[] $historyTipers
  * @property Keranjang[] $keranjangs
  * @property OrderCustomer[] $orderCustomers
  * @property OrderTipers[] $orderTipers
@@ -37,7 +39,7 @@ class Pengguna extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['hak_akses', 'nrp', 'angkatan'], 'integer'],
+            [['nrp', 'angkatan'], 'integer'],
             [['nrp', 'nama', 'jurusan', 'angkatan', 'password'], 'required'],
             [['rating'], 'number'],
             [['nama', 'foto'], 'string', 'max' => 255],
@@ -52,7 +54,6 @@ class Pengguna extends \yii\db\ActiveRecord
     {
         return [
             'iduser' => 'Iduser',
-            'hak_akses' => 'Hak Akses',
             'nrp' => 'Nrp',
             'nama' => 'Nama',
             'jurusan' => 'Jurusan',
@@ -61,6 +62,22 @@ class Pengguna extends \yii\db\ActiveRecord
             'rating' => 'Rating',
             'password' => 'Password',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getHistoryCustomers()
+    {
+        return $this->hasMany(HistoryCustomer::className(), ['user_id' => 'iduser']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getHistoryTipers()
+    {
+        return $this->hasMany(HistoryTipers::className(), ['user_id' => 'iduser']);
     }
 
     /**

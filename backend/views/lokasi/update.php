@@ -11,9 +11,24 @@ $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id
 $this->params['breadcrumbs'][] = 'Update';
 ?>
 <div class="lokasi-update">
-
-    <h1><?= Html::encode($this->title) ?></h1>
-
+  <div class="breadcrumbs">
+    <div class="breadcrumbs-inner">
+      <div class="row m-0">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-8">
+          <div class="page-header float-right">
+            <div class="page-title">
+              <ol class="breadcrumb text-right">
+                <li><a href="<?php echo Yii::$app->request->BaseUrl ?>">Dashboard</a></li>
+                <li><a href="<?php echo Yii::$app->request->BaseUrl ?>/lokasi/">Lokasi</a></li>
+                <li class="active">Update <?php echo $model->name ?></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <?= $this->render('_form', [
         'model' => $model,
     ]) ?>

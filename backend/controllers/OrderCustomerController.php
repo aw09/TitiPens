@@ -8,7 +8,8 @@ use backend\models\OrderCustomerSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-
+use backend\models\OrderItemCustomer;
+use backend\models\MenuWarung;
 /**
  * OrderCustomerController implements the CRUD actions for OrderCustomer model.
  */
@@ -42,6 +43,19 @@ class OrderCustomerController extends Controller
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
+    }
+
+    public function actionDetail($id) {
+      $itemId = array();
+      $orderItem = OrderItemCustomer::find()->select(['menuwarung_id'])->where(['ordercustomer_id'=>$id])->all();
+      for($i = 0; $i < count($orderItem); $i++){
+        $itemId[] = $orderItem[$i]->menuwarung_id;
+      }
+      $item = MenuWarung::find()->where(['idmenu'=>$itemId])->all();
+      return $this->render('detailorder', [
+          'item' => $item,
+          'model' => $this->findModel($id),
+      ]);
     }
 
     /**

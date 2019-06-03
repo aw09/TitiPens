@@ -40,9 +40,9 @@ class Warung extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idwarung' => 'Idwarung',
-            'nama' => 'Nama',
-            'foto' => 'Foto',
+            'idwarung' => 'ID Warung',
+            'nama' => 'Nama Warung',
+            'foto' => 'Foto Warung',
         ];
     }
 

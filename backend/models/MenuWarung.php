@@ -46,8 +46,8 @@ class MenuWarung extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idmenu' => 'Idmenu',
-            'warung_id' => 'Warung ID',
+            'idmenu' => 'ID Item',
+            'warung_id' => 'Nama Warung',
             'nama_item' => 'Nama Item',
             'harga' => 'Harga',
             'foto' => 'Foto',

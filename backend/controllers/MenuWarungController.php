@@ -8,7 +8,7 @@ use backend\models\MenuWarungSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-
+use yii\web\UploadedFile;
 /**
  * MenuWarungController implements the CRUD actions for MenuWarung model.
  */
@@ -23,7 +23,7 @@ class MenuWarungController extends Controller
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    'delete' => ['POST'],
+                    'delete' => ['POST', 'GET'],
                 ],
             ],
         ];
@@ -66,7 +66,12 @@ class MenuWarungController extends Controller
     {
         $model = new MenuWarung();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+            $model->foto = UploadedFile::getInstance($model, 'foto');
+            $imgName = $model->nama_item.'.'.$model->foto->getExtension();
+            $model->foto->saveAs(Yii::getAlias('@filePath').'/'.$imgName);
+            $model->foto = $imgName;
+            $model->save();
             return $this->redirect(['view', 'id' => $model->idmenu]);
         }
 
@@ -86,7 +91,12 @@ class MenuWarungController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+            $model->foto = UploadedFile::getInstance($model, 'foto');
+            $imgName = $model->nama_item.'.'.$model->foto->getExtension();
+            $model->foto->saveAs(Yii::getAlias('@filePath').'/'.$imgName);
+            $model->foto = $imgName;
+            $model->save();
             return $this->redirect(['view', 'id' => $model->idmenu]);
         }
 

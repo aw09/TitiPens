@@ -7,10 +7,14 @@ use Yii;
 /**
  * This is the model class for table "history_customer".
  *
- * @property int $idhistori
+ * @property int $idhistory
  * @property int $ordercustomer_id
+ * @property int $ordertipers_id
+ * @property string $tanggal
+ * @property int $user_id
+ * @property int $total
  *
- * @property OrderCustomer $ordercustomer
+ * @property Pengguna $user
  */
 class HistoryCustomer extends \yii\db\ActiveRecord
 {
@@ -28,9 +32,10 @@ class HistoryCustomer extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['ordercustomer_id'], 'required'],
-            [['ordercustomer_id'], 'integer'],
-            [['ordercustomer_id'], 'exist', 'skipOnError' => true, 'targetClass' => OrderCustomer::className(), 'targetAttribute' => ['ordercustomer_id' => 'idordercustomer']],
+            [['ordercustomer_id', 'ordertipers_id', 'tanggal', 'user_id', 'total'], 'required'],
+            [['ordercustomer_id', 'ordertipers_id', 'user_id', 'total'], 'integer'],
+            [['tanggal'], 'safe'],
+            [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Pengguna::className(), 'targetAttribute' => ['user_id' => 'iduser']],
         ];
     }
 
@@ -40,16 +45,20 @@ class HistoryCustomer extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idhistori' => 'Idhistori',
+            'idhistory' => 'Idhistory',
             'ordercustomer_id' => 'Ordercustomer ID',
+            'ordertipers_id' => 'Ordertipers ID',
+            'tanggal' => 'Tanggal',
+            'user_id' => 'User ID',
+            'total' => 'Total',
         ];
     }
 
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getOrdercustomer()
+    public function getUser()
     {
-        return $this->hasOne(OrderCustomer::className(), ['idordercustomer' => 'ordercustomer_id']);
+        return $this->hasOne(Pengguna::className(), ['iduser' => 'user_id']);
     }
 }

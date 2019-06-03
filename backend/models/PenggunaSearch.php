@@ -17,7 +17,7 @@ class PenggunaSearch extends Pengguna
     public function rules()
     {
         return [
-            [['iduser', 'hak_akses', 'nrp', 'angkatan'], 'integer'],
+            [['iduser', 'nrp', 'angkatan'], 'integer'],
             [['nama', 'jurusan', 'foto', 'password'], 'safe'],
             [['rating'], 'number'],
         ];
@@ -60,7 +60,6 @@ class PenggunaSearch extends Pengguna
         // grid filtering conditions
         $query->andFilterWhere([
             'iduser' => $this->iduser,
-            'hak_akses' => $this->hak_akses,
             'nrp' => $this->nrp,
             'angkatan' => $this->angkatan,
             'rating' => $this->rating,
