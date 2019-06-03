@@ -9,6 +9,7 @@ use yii\helpers\Html;
 ?>
 
     <?= $this->render('homepageCustomer', [
+        'models' => $model,
         'modelOrder' => $modelOrder,
         'namalokasi'=> $namalokasi,
     ]) ?>

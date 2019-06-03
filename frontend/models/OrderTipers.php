@@ -12,7 +12,9 @@ use Yii;
  * @property int $lokasi_id
  * @property int $user_id
  * @property string $catatan
+ * @property string $tanggal
  *
+ * @property OrderCustomer[] $orderCustomers
  * @property Lokasi $lokasi
  * @property Pengguna $user
  */
@@ -32,9 +34,10 @@ class OrderTipers extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['fee', 'lokasi_id', 'user_id', 'catatan'], 'required'],
+            [['fee', 'lokasi_id', 'user_id', 'catatan', 'tanggal'], 'required'],
             [['fee', 'lokasi_id', 'user_id'], 'integer'],
             [['catatan'], 'string'],
+            [['tanggal'], 'safe'],
             [['lokasi_id'], 'exist', 'skipOnError' => true, 'targetClass' => Lokasi::className(), 'targetAttribute' => ['lokasi_id' => 'idlokasi']],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Pengguna::className(), 'targetAttribute' => ['user_id' => 'iduser']],
         ];
@@ -51,7 +54,16 @@ class OrderTipers extends \yii\db\ActiveRecord
             'lokasi_id' => 'Lokasi ID',
             'user_id' => 'User ID',
             'catatan' => 'Catatan',
+            'tanggal' => 'Tanggal',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getOrderCustomers()
+    {
+        return $this->hasMany(OrderCustomer::className(), ['ordertipers_id' => 'idordertipers']);
     }
 
     /**
