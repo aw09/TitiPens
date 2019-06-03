@@ -9,8 +9,10 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
+use yii\helpers\Url;
 
 AppAsset::register($this);
+
 ?>
 <!--
 <?php $this->beginPage() ?>
@@ -98,41 +100,29 @@ AppAsset::register($this);
     <link rel="stylesheet" href="<?php echo Yii::$app->request->BaseUrl ?>/css/dataTables.bootstrap.min.css">
 </head>
 <body>
-  <aside id="left-panel" class="left-panel">
-    <nav class="navbar navbar-expand-sm navbar-default">
-      <div id="main-menu" class="main-menu collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="<?php echo Yii::$app->request->BaseUrl ?>"><i class="menu-icon fa fa-laptop"></i>Dashboard </a>
-          </li>
-          <li>
-            <a href="<?php echo Yii::$app->request->BaseUrl ?>/pengguna/"> <i class="menu-icon fa fa-user"></i>Pengguna </a>
-          </li>
-          <li>
-            <a href="<?php echo Yii::$app->request->BaseUrl ?>/warung/"> <i class="menu-icon fa fa-coffee"></i>Warung </a>
-          </li>
-          <li>
-            <a href="<?php echo Yii::$app->request->BaseUrl ?>/menu-warung/"> <i class="menu-icon fa fa-bars"></i>Daftar Item </a>
-          </li>
-          <li>
-            <a href="<?php echo Yii::$app->request->BaseUrl ?>/lokasi/"> <i class="menu-icon fa fa-map-marker"></i>Daftar Lokasi </a>
-          </li>
-          <li>
-            <a href="<?php echo Yii::$app->request->BaseUrl ?>/order-tipers/"> <i class="menu-icon fa fa-shopping-bag"></i>Order Tipers </a>
-          </li>
-          <li>
-            <a href="<?php echo Yii::$app->request->BaseUrl ?>/order-customer/"> <i class="menu-icon fa fa-shopping-cart"></i>Order Customers </a>
-          </li>
-          <li>
-            <a href="<?php echo Yii::$app->request->BaseUrl ?>/history-tipers/"> <i class="menu-icon fa fa-file-text"></i>History Order Tipers </a>
-          </li>
-          <li>
-            <a href="<?php echo Yii::$app->request->BaseUrl ?>/history-customer/"> <i class="menu-icon fa fa-file-text-o"></i>History Order Customers </a>
-          </li>
-        </ul>
+<?php if (Yii::$app->user->isGuest) { ?>
+  <div id="right-panel" class="right-panel">
+    <header id="header" class="header">
+      <div class="top-left">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="<?php echo Yii::$app->request->BaseUrl ?>"><img src="/TitiPens/images/titipblack.png" alt="Logo" style="width:140px; height:40px;"></a>
+        </div>
       </div>
-    </nav>
-  </aside>
+      <div class="top-right">
+        <div class="header-menu">
+          <div class="user-area dropdown float-right">
+            <?= Html::a('Login', ['site/login']) ?>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="content">
+    <div class="animated fadeIn">
+      <?= $content ?>
+    </div>
+  </div>
+<?php } else { ?>
   <div id="right-panel" class="right-panel">
     <header id="header" class="header">
       <div class="top-left">
@@ -149,7 +139,7 @@ AppAsset::register($this);
               <img class="user-avatar rounded-circle" src="/TitiPens/images/ava.png" alt="User Avatar">
             </a>
             <div class="user-menu dropdown-menu">
-              <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
+              <?= Html::a('Logout', ['site/logout'], ['data' => ['method' => 'POST']]) ?>
             </div>
           </div>
         </div>
@@ -161,6 +151,7 @@ AppAsset::register($this);
       </div>
     </div>
   </div>
+<?php } ?>
   <footer class="site-footer">
     <div class="footer-inner bg-white">
       <div class="row">
