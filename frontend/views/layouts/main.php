@@ -46,11 +46,11 @@ AppAsset::register($this);
     else if(isset($_SESSION['role'])) {
         if($_SESSION['role'] == 1){
           $menuItems[] = ['label' => "as Tipers"];
-          $menuItems[] = ['label' => Yii::$app->user->identity->nrp, 'url' => ['/site/tipers']];
+          $menuItems[] = ['label' => Yii::$app->user->identity->nama, 'url' => ['/site/tipers']];
         }
         else{
           $menuItems[] = ['label' => "as Customer"];
-          $menuItems[] = ['label' => Yii::$app->user->identity->nrp, 'url' => ['/site/customer']];
+          $menuItems[] = ['label' => Yii::$app->user->identity->nama, 'url' => ['/site/customer']];
         }
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
