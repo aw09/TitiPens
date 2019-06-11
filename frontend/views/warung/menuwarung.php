@@ -80,8 +80,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 </div>
                 <br>
-                <div class="button" style="font-family:Acme, sans-serif; font-size: "30px">
-                    Check Out</div>
+                <?= Html::a(' CheckOut', ['keranjang', 'id'=>$data->idmenu], ['class' => 'glyphicon glyphicon-shopping-cart btn btn-warning ']) ?>
             </center>
           </div>
           <?php } ?>
