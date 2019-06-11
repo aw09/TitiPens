@@ -3,19 +3,16 @@
 namespace frontend\controllers;
 
 use Yii;
-use frontend\models\Warung;
-use frontend\models\WarungSearch;
 use frontend\models\MenuWarung;
-use frontend\models\OrderTipers;
+use frontend\models\MenuWarungSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\data\ActiveDataProvider;
 
 /**
- * WarungController implements the CRUD actions for Warung model.
+ * MenuWarungController implements the CRUD actions for MenuWarung model.
  */
-class WarungController extends Controller
+class MenuWarungController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -33,13 +30,12 @@ class WarungController extends Controller
     }
 
     /**
-     * Lists all Warung models.
+     * Lists all MenuWarung models.
      * @return mixed
      */
-    public function actionIndex($id)
+    public function actionIndex()
     {
-        $_SESSION['idordertipers'] = OrderTipers::findOne($id);
-        $searchModel = new WarungSearch();
+        $searchModel = new MenuWarungSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -49,7 +45,7 @@ class WarungController extends Controller
     }
 
     /**
-     * Displays a single Warung model.
+     * Displays a single MenuWarung model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -62,16 +58,16 @@ class WarungController extends Controller
     }
 
     /**
-     * Creates a new Warung model.
+     * Creates a new MenuWarung model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Warung();
+        $model = new MenuWarung();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->idwarung]);
+            return $this->redirect(['view', 'id' => $model->idmenu]);
         }
 
         return $this->render('create', [
@@ -80,7 +76,7 @@ class WarungController extends Controller
     }
 
     /**
-     * Updates an existing Warung model.
+     * Updates an existing MenuWarung model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -91,7 +87,7 @@ class WarungController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->idwarung]);
+            return $this->redirect(['view', 'id' => $model->idmenu]);
         }
 
         return $this->render('update', [
@@ -100,7 +96,7 @@ class WarungController extends Controller
     }
 
     /**
-     * Deletes an existing Warung model.
+     * Deletes an existing MenuWarung model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -114,33 +110,18 @@ class WarungController extends Controller
     }
 
     /**
-     * Finds the Warung model based on its primary key value.
+     * Finds the MenuWarung model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Warung the loaded model
+     * @return MenuWarung the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Warung::findOne($id)) !== null) {
+        if (($model = MenuWarung::findOne($id)) !== null) {
             return $model;
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
-    }
-
-    public function actionMenu($id)
-    {
-      $warung = Warung::find()->all();
-      $menuWarung = MenuWarung::find()->where(['warung_id' => $id]);
-      $provider = new ActiveDataProvider([
-    			'query' => $menuWarung,
-    			'pagination' => [
-    			'pageSize' => 10,
-    			],
-    		]);
-        return $this->render('menuwarung', [
-  			'dataProvider' => $provider,
-  			'models' => $warung]);
     }
 }

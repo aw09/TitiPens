@@ -58,7 +58,7 @@ use yii\helpers\Html;
                       <p style="color:#000000;">Fee	: <?= $order->fee ?> / Item</p>
                       <p style="color:#000000;">Catatan: <?= $order->catatan ?></p>
                       <p style="color:#000000;">Lokasi yang dituju:  <?= $order->lokasi->name ?></p>
-                      <?= Html::a('Pilih', ['pilih', 'id' => $order->idordertipers], ['class' => 'button buttonpilih']) ?>
+                      <?= Html::a('Pilih', ['/warung/index', 'id' => $order->idordertipers], ['class' => 'button buttonpilih']) ?>
                     </div>
                   </div>
                 </div>

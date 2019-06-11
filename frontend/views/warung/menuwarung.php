@@ -48,7 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <center>
               <img src="<?= Yii::getAlias('@fileUrl').'/'.$data->foto; ?>" style="height:200px;width:300px;" id="image"/>
               <a href="#">
-                <div class="text-center" id="title-name"><b><?= Html::a($data->nama, ['menu', 'id'=>$data->idwarung], ['class'=>"title"]); ?></b></div>
+                <div class="text-center" id="title-name"><b><?= Html::a($data->nama_item, ['menu', 'id'=>$data->idmenu], ['class'=>"title"]); ?></b></div>
               </a>
             </center>
           </div>

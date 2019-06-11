@@ -31881,3 +31881,2072 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1559897024.854
     'REQUEST_TIME' => 1559897024
 ]
+2019-06-11 05:31:54 [::1][-][-][warning][yii\web\User::getIdentityAndDurationFromCookie] Invalid auth key attempted for user '1': 
+2019-06-11 05:31:47 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '51912'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560223904.181
+    'REQUEST_TIME' => 1560223904
+]
+2019-06-11 05:34:50 [::1][1][223d4c86rlbe8eogin3322qki7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/pilih in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pilih', Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/pilih', Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-06-11 05:34:49 [::1][1][223d4c86rlbe8eogin3322qki7][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => '223d4c86rlbe8eogin3322qki7'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => '2fa85a4f97f177e71b971becd9472882e8da95de86352e9c78627952cc1da262a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"2fCI5MCEelPTwWx8KWzB-himUtppk5Pl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=223d4c86rlbe8eogin3322qki7; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=2fa85a4f97f177e71b971becd9472882e8da95de86352e9c78627952cc1da262a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%222fCI5MCEelPTwWx8KWzB-himUtppk5Pl%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '51970'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/pilih/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/pilih/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560224089.578
+    'REQUEST_TIME' => 1560224089
+]
+2019-06-11 07:22:37 [::1][-][-][warning][yii\web\User::getIdentityAndDurationFromCookie] Invalid auth key attempted for user '1': 
+2019-06-11 07:22:36 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52691'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560230556.583
+    'REQUEST_TIME' => 1560230556
+]
+2019-06-11 07:22:59 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\TitiPens\frontend\views\site\warung/index.php in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('warung/index', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\TitiPens\frontend\controllers\SiteController.php(263): yii\base\Controller->render('warung/index', Array)
+#3 [internal function]: frontend\controllers\SiteController->actionPilih('1')
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pilih', Array)
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/pilih', Array)
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-06-11 07:22:59 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52699'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/pilih/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/pilih/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560230578.982
+    'REQUEST_TIME' => 1560230578
+]
+2019-06-11 07:23:35 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\TitiPens\frontend\views\site\warung\index.php in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('warung\\index', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\TitiPens\frontend\controllers\SiteController.php(263): yii\base\Controller->render('warung\\index', Array)
+#3 [internal function]: frontend\controllers\SiteController->actionPilih('1')
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pilih', Array)
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/pilih', Array)
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-06-11 07:23:34 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52718'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/pilih/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/pilih/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560230614.801
+    'REQUEST_TIME' => 1560230614
+]
+2019-06-11 07:23:52 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\TitiPens\frontend\views\site\\warung\index.php in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('\\warung\\index', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\TitiPens\frontend\controllers\SiteController.php(263): yii\base\Controller->render('\\warung\\index', Array)
+#3 [internal function]: frontend\controllers\SiteController->actionPilih('1')
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pilih', Array)
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/pilih', Array)
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-06-11 07:23:52 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52723'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/pilih/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/pilih/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560230632.407
+    'REQUEST_TIME' => 1560230632
+]
+2019-06-11 08:25:22 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: dataProvider in C:\xampp\htdocs\TitiPens\frontend\views\warung\index.php:46
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\frontend\views\warung\index.php(46): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('..\\warung\\index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\TitiPens\frontend\controllers\SiteController.php(263): yii\base\Controller->render('..\\warung\\index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPilih('1')
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pilih', Array)
+#10 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/pilih', Array)
+#11 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-06-11 08:25:19 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52729'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/pilih/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/pilih/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560234318.731
+    'REQUEST_TIME' => 1560234318
+]
+2019-06-11 08:29:12 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: dataProvider in C:\xampp\htdocs\TitiPens\frontend\views\warung\index.php:46
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\frontend\views\warung\index.php(46): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('..\\warung\\index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\TitiPens\frontend\controllers\SiteController.php(263): yii\base\Controller->render('..\\warung\\index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPilih('1')
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pilih', Array)
+#10 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/pilih', Array)
+#11 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-06-11 08:29:12 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52735'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/pilih/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/pilih/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560234552.072
+    'REQUEST_TIME' => 1560234552
+]
+2019-06-11 08:29:44 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\TitiPens\frontend\views\site\..\warung.php in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('..\\warung', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\TitiPens\frontend\controllers\SiteController.php(263): yii\base\Controller->render('..\\warung', Array)
+#3 [internal function]: frontend\controllers\SiteController->actionPilih('1')
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pilih', Array)
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/pilih', Array)
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-06-11 08:29:44 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52739'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/pilih/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/pilih/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560234584.529
+    'REQUEST_TIME' => 1560234584
+]
+2019-06-11 08:30:20 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: dataProvider in C:\xampp\htdocs\TitiPens\frontend\views\warung\index.php:46
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\frontend\views\warung\index.php(46): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('..\\warung\\index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\TitiPens\frontend\controllers\SiteController.php(263): yii\base\Controller->render('..\\warung\\index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPilih('1')
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pilih', Array)
+#10 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/pilih', Array)
+#11 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-06-11 08:30:20 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52744'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/pilih/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/pilih/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560234620.529
+    'REQUEST_TIME' => 1560234620
+]
+2019-06-11 08:34:22 [::1][1][erib98vkq91tv674mqh5g53dhf][error][ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\TitiPens\frontend\controllers\SiteController.php:263
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(637): class_exists('frontend\\contro...')
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('pilih')
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/pilih', Array)
+#6 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2019-06-11 08:34:22 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52746'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/pilih/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/pilih/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560234862.078
+    'REQUEST_TIME' => 1560234862
+]
+2019-06-11 08:34:33 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/warung in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('warung', Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/warung', Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-06-11 08:34:32 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52750'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/warung'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/warung'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560234872.792
+    'REQUEST_TIME' => 1560234872
+]
+2019-06-11 08:34:50 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/warung in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('warung', Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/warung', Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-06-11 08:34:50 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52755'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/warung'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/warung'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560234889.97
+    'REQUEST_TIME' => 1560234889
+]
+2019-06-11 08:34:58 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/warung in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('warung', Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/warung', Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-06-11 08:34:58 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52759'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/warung'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/warung'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560234898.412
+    'REQUEST_TIME' => 1560234898
+]
+2019-06-11 08:37:08 [::1][-][erib98vkq91tv674mqh5g53dhf][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 6 Error on delete of 'C:\xampp\tmp\#sql1ef8_1f_0.MAD' (Errcode: 13 "Permission denied") in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SHOW FULL COLUM...')
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php(744): yii\db\mysql\Schema->loadTableSchema('pengguna')
+#6 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php(194): yii\db\Schema->getTableMetadata('pengguna', 'schema', false)
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(435): yii\db\Schema->getTableSchema('pengguna')
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(459): yii\db\ActiveRecord::getTableSchema()
+#9 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(178): yii\db\ActiveRecord::primaryKey()
+#10 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(1)
+#11 C:\xampp\htdocs\TitiPens\frontend\models\Pengguna.php(90): yii\db\BaseActiveRecord::findOne(1)
+#12 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(690): frontend\models\Pengguna::findIdentity(1)
+#13 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(192): yii\web\User->renewAuthStatus()
+#14 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(360): yii\web\User->getIdentity()
+#15 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#16 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(83): yii\base\Component->__get('isGuest')
+#17 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#18 [internal function]: yii\base\BaseObject->__construct(Array)
+#19 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#20 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#21 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#22 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\Module.php(226): yii\BaseYii::createObject(Array)
+#23 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\Module.php(197): yii\debug\Module->initPanels()
+#24 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\Module->init()
+#25 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#26 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#27 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#28 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#29 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#30 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#31 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('debug')
+#32 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#33 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#34 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#35 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#36 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->__construct('[<span class="s...')
+#37 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 6 Error on delete of 'C:\xampp\tmp\#sql1ef8_1f_0.MAD' (Errcode: 13 "Permission denied")
+The SQL being executed was: SHOW FULL COLUMNS FROM `pengguna` in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SHOW FULL COLUM...')
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SHOW FULL COLUM...')
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php(744): yii\db\mysql\Schema->loadTableSchema('pengguna')
+#6 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php(194): yii\db\Schema->getTableMetadata('pengguna', 'schema', false)
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(435): yii\db\Schema->getTableSchema('pengguna')
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(459): yii\db\ActiveRecord::getTableSchema()
+#9 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(178): yii\db\ActiveRecord::primaryKey()
+#10 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(1)
+#11 C:\xampp\htdocs\TitiPens\frontend\models\Pengguna.php(90): yii\db\BaseActiveRecord::findOne(1)
+#12 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(690): frontend\models\Pengguna::findIdentity(1)
+#13 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(192): yii\web\User->renewAuthStatus()
+#14 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(360): yii\web\User->getIdentity()
+#15 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#16 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(83): yii\base\Component->__get('isGuest')
+#17 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#18 [internal function]: yii\base\BaseObject->__construct(Array)
+#19 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#20 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#21 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#22 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\Module.php(226): yii\BaseYii::createObject(Array)
+#23 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\Module.php(197): yii\debug\Module->initPanels()
+#24 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\Module->init()
+#25 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#26 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#27 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#28 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#29 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#30 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#31 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('debug')
+#32 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#33 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#34 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#35 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#36 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->__construct('[<span class="s...')
+#37 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 6
+    [2] => Error on delete of 'C:\xampp\tmp\#sql1ef8_1f_0.MAD' (Errcode: 13 "Permission denied")
+)
+
+2019-06-11 08:37:07 [::1][-][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52763'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/warung'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/warung'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560235027.7
+    'REQUEST_TIME' => 1560235027
+]
+2019-06-11 08:37:11 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/warung in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('warung', Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/warung', Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-06-11 08:37:11 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52762'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/warung'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/warung'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560235031.381
+    'REQUEST_TIME' => 1560235031
+]
+2019-06-11 08:44:41 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/menu in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('menu', Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/menu', Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-06-11 08:44:41 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/pilih/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52826'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/menu/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/menu/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560235481.576
+    'REQUEST_TIME' => 1560235481
+]
+2019-06-11 08:50:29 [::1][-][erib98vkq91tv674mqh5g53dhf][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 1036 Table 'C:\xampp\tmp\#sql1ef8_40_0.MAI' is read only in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SHOW FULL COLUM...')
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php(744): yii\db\mysql\Schema->loadTableSchema('pengguna')
+#6 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php(194): yii\db\Schema->getTableMetadata('pengguna', 'schema', false)
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(435): yii\db\Schema->getTableSchema('pengguna')
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(459): yii\db\ActiveRecord::getTableSchema()
+#9 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(178): yii\db\ActiveRecord::primaryKey()
+#10 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(1)
+#11 C:\xampp\htdocs\TitiPens\frontend\models\Pengguna.php(90): yii\db\BaseActiveRecord::findOne(1)
+#12 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(690): frontend\models\Pengguna::findIdentity(1)
+#13 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(192): yii\web\User->renewAuthStatus()
+#14 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(360): yii\web\User->getIdentity()
+#15 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#16 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(83): yii\base\Component->__get('isGuest')
+#17 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#18 [internal function]: yii\base\BaseObject->__construct(Array)
+#19 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#20 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#21 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#22 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\Module.php(226): yii\BaseYii::createObject(Array)
+#23 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\Module.php(197): yii\debug\Module->initPanels()
+#24 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\Module->init()
+#25 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#26 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#27 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#28 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#29 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#30 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#31 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('debug')
+#32 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#33 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#34 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#35 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#36 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->__construct('[<span class="s...')
+#37 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 1036 Table 'C:\xampp\tmp\#sql1ef8_40_0.MAI' is read only
+The SQL being executed was: SHOW FULL COLUMNS FROM `pengguna` in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SHOW FULL COLUM...')
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SHOW FULL COLUM...')
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php(744): yii\db\mysql\Schema->loadTableSchema('pengguna')
+#6 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\Schema.php(194): yii\db\Schema->getTableMetadata('pengguna', 'schema', false)
+#7 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(435): yii\db\Schema->getTableSchema('pengguna')
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(459): yii\db\ActiveRecord::getTableSchema()
+#9 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\ActiveRecord.php(178): yii\db\ActiveRecord::primaryKey()
+#10 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(1)
+#11 C:\xampp\htdocs\TitiPens\frontend\models\Pengguna.php(90): yii\db\BaseActiveRecord::findOne(1)
+#12 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(690): frontend\models\Pengguna::findIdentity(1)
+#13 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(192): yii\web\User->renewAuthStatus()
+#14 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\User.php(360): yii\web\User->getIdentity()
+#15 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#16 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(83): yii\base\Component->__get('isGuest')
+#17 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#18 [internal function]: yii\base\BaseObject->__construct(Array)
+#19 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#20 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#21 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#22 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\Module.php(226): yii\BaseYii::createObject(Array)
+#23 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2-debug\src\Module.php(197): yii\debug\Module->initPanels()
+#24 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\Module->init()
+#25 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#26 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#27 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#28 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#29 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#30 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#31 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('debug')
+#32 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#33 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#34 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#35 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#36 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->__construct('[<span class="s...')
+#37 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1036
+    [2] => Table 'C:\xampp\tmp\#sql1ef8_40_0.MAI' is read only
+)
+
+2019-06-11 08:50:29 [::1][-][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52829'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/warung/index/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/warung/index/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560235829.333
+    'REQUEST_TIME' => 1560235829
+]
+2019-06-11 08:51:53 [::1][1][erib98vkq91tv674mqh5g53dhf][error][Error] Error: Class 'frontend\models\MenuWarung' not found in C:\xampp\htdocs\TitiPens\frontend\controllers\WarungController.php:133
+Stack trace:
+#0 [internal function]: frontend\controllers\WarungController->actionMenu('1')
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('menu', Array)
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('warung/menu', Array)
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-06-11 08:51:52 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/warung/index/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52838'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/warung/menu/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/warung/menu/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560235912.794
+    'REQUEST_TIME' => 1560235912
+]
+2019-06-11 08:57:34 [::1][1][erib98vkq91tv674mqh5g53dhf][error][Error] Error: Class 'frontend\controllers\OrderTipers' not found in C:\xampp\htdocs\TitiPens\frontend\controllers\WarungController.php:40
+Stack trace:
+#0 [internal function]: frontend\controllers\WarungController->actionIndex('1')
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('warung/index', Array)
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-06-11 08:57:34 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/customer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52850'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/warung/index/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/warung/index/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560236254.071
+    'REQUEST_TIME' => 1560236254
+]
+2019-06-11 08:58:28 [::1][1][erib98vkq91tv674mqh5g53dhf][error][Error] Error: Class 'frontend\models\MenuWarung' not found in C:\xampp\htdocs\TitiPens\frontend\controllers\WarungController.php:135
+Stack trace:
+#0 [internal function]: frontend\controllers\WarungController->actionMenu('1')
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('menu', Array)
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('warung/menu', Array)
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-06-11 08:58:28 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+    'idordertipers' => frontend\models\OrderTipers#1
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'idordertipers' => 1
+            'fee' => 2000
+            'lokasi_id' => 4
+            'user_id' => 2
+            'catatan' => 'harap bayar uang pas'
+            'tanggal' => '2019-05-31 11:41:00'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'idordertipers' => 1
+            'fee' => 2000
+            'lokasi_id' => 4
+            'user_id' => 2
+            'catatan' => 'harap bayar uang pas'
+            'tanggal' => '2019-05-31 11:41:00'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/warung/index/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52854'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/warung/menu/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/warung/menu/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560236307.983
+    'REQUEST_TIME' => 1560236307
+]
+2019-06-11 09:00:38 [::1][1][erib98vkq91tv674mqh5g53dhf][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: frontend\models\MenuWarung::nama in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('nama')
+#1 C:\xampp\htdocs\TitiPens\frontend\views\warung\menuwarung.php(51): yii\db\BaseActiveRecord->__get('nama')
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\WarungController))
+#5 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('menuwarung', Array, Object(frontend\controllers\WarungController))
+#6 C:\xampp\htdocs\TitiPens\frontend\controllers\WarungController.php(144): yii\base\Controller->render('menuwarung', Array)
+#7 [internal function]: frontend\controllers\WarungController->actionMenu('1')
+#8 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('menu', Array)
+#11 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('warung/menu', Array)
+#12 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-06-11 09:00:37 [::1][1][erib98vkq91tv674mqh5g53dhf][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'erib98vkq91tv674mqh5g53dhf'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => 'a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7C-3NyVau19WLGC9YzsSNfWEpBooFhjV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+    'idordertipers' => frontend\models\OrderTipers#1
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'idordertipers' => 1
+            'fee' => 2000
+            'lokasi_id' => 4
+            'user_id' => 2
+            'catatan' => 'harap bayar uang pas'
+            'tanggal' => '2019-05-31 11:41:00'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'idordertipers' => 1
+            'fee' => 2000
+            'lokasi_id' => 4
+            'user_id' => 2
+            'catatan' => 'harap bayar uang pas'
+            'tanggal' => '2019-05-31 11:41:00'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/warung/index/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=erib98vkq91tv674mqh5g53dhf; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=a8bd5bbb08ddfdce4c6d747c3d13f0a99dd8aee775a72c2d0a4765db03e79287a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227C-3NyVau19WLGC9YzsSNfWEpBooFhjV%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Program Files\\Java\\jre-10.0.2\\bin;C:\\Users\\A S U S\\bin\\Sencha\\Cmd\\6.6.0.13;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk-10.0.2\\bin;C:\\Users\\A S U S\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Java\\jdk1.8.0_191;C:\\Users\\A S U S\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52882'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/warung/menu/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/warung/menu/1'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560236437.912
+    'REQUEST_TIME' => 1560236437
+]
