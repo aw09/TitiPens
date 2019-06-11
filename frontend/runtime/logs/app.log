@@ -33950,3 +33950,91 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1560236437.912
     'REQUEST_TIME' => 1560236437
 ]
+2019-06-10 16:15:28 [::1][1][bikr675hqp2f445vjma1gdqqqk][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/update in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#1 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/update', Array)
+#2 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-06-10 16:15:28 [::1][1][bikr675hqp2f445vjma1gdqqqk][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1580773374.1543850908'
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-frontend' => 'bikr675hqp2f445vjma1gdqqqk'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => '018be2b3925ec16025d5221a83d68751eebc61db19699ad0ab2b80343c4db450a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"W-9rUkaGKDlXuv3mH2AF9k7dSmq07Nbo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/web/site/2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ms;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1580773374.1543850908; _identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-frontend=bikr675hqp2f445vjma1gdqqqk; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=018be2b3925ec16025d5221a83d68751eebc61db19699ad0ab2b80343c4db450a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22W-9rUkaGKDlXuv3mH2AF9k7dSmq07Nbo%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Users\\Agung\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Java\\jdk1.8.0_191\\bin;C:\\Users\\Agung\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Agung\\AppData\\Local\\.meteor;C:\\Users\\Agung\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '52739'
+    'REDIRECT_URL' => '/TitiPens/frontend/web/site/update/2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/site/update/2'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560176128.83
+    'REQUEST_TIME' => 1560176128
+]
