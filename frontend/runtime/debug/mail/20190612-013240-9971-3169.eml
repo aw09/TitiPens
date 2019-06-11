@@ -1,0 +1,52 @@
+Message-ID: <4080132092db7355ff4d58ccf31ac29e@localhost>
+Date: Wed, 12 Jun 2019 01:32:40 +0200
+Subject: Account registration at <img class="img-responsive"
+ src="../../images/titip1.png"  width="80" height="30">
+From: "<img class=\"img-responsive\" src=\"../../images/titip1.png\" 
+ width=\"80\" height=\"30\"> robot" <support@example.com>
+To: hihi@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1560295960_73fa06e81ec59a7506a68acb15d3c5a3_=_"
+
+
+--_=_swift_1560295960_73fa06e81ec59a7506a68acb15d3c5a3_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello hihi,
+
+Follow the link below to verify your email:
+
+http://localhost/yiipro/TitiPens/frontend/web/site/verify-email?token=3DC1k=
+17tSrt-3kKhpw9N3euP7pRpXtIksU_1560295959
+
+--_=_swift_1560295960_73fa06e81ec59a7506a68acb15d3c5a3_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <title></title>
+    </head>
+<body>
+        <div class=3D"verify-email">
+    <p>Hello hihi,</p>
+
+    <p>Follow the link below to verify your email:</p>
+
+    <p><a href=3D"http://localhost/yiipro/TitiPens/frontend/web/site/verify=
+-email?token=3DC1k17tSrt-3kKhpw9N3euP7pRpXtIksU_1560295959">http://localhos=
+t/yiipro/TitiPens/frontend/web/site/verify-email?token=3DC1k17tSrt-3kKhpw9N=
+3euP7pRpXtIksU_1560295959</a></p>
+</div>
+    </body>
+</html>
+
+
+--_=_swift_1560295960_73fa06e81ec59a7506a68acb15d3c5a3_=_--
