@@ -16,6 +16,7 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
       'js/jquery-3.4.1.min.js',
+      'js/increment.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
