@@ -29,8 +29,9 @@ AppAsset::register($this);
 
 <div class="wrap">
     <?php
-    NavBar::begin([
-        'brandLabel' => Yii::$app->name,
+    NavBar::begin(
+      [
+        'brandLabel' => Html::img('@web/gambar/titip1.png', ['alt'=>Yii::$app->name, 'width'=>"10%", 'height'=>"30px"]),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -46,8 +47,8 @@ AppAsset::register($this);
     }
     else if(isset($_SESSION['role'])) {
         if($_SESSION['role'] == 1){
-          $menuItems[] = ['label' => "as Tipers"];
-          $menuItems[] = ['label' => Yii::$app->user->identity->nama, 'url' => ['/site/tipers']];
+          $menuItems[] = ['label' => "as Tipers", 'url' => ['/site/tipers']];
+          $menuItems[] = ['label' => Yii::$app->user->identity->nama, 'url' => ['/pengguna/'.Yii::$app->user->identity->iduser]];
         }
         else{
           $menuItems[] = ['label' => "as Customer"];
@@ -55,7 +56,6 @@ AppAsset::register($this);
         }
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
-            // . Html::submitButton( Yii::$app->user->identity->nrp, ['class' => 'btn btn-link about'])
             . Html::submitButton('Logout', ['class' => 'btn btn-link logout'])
             . Html::endForm()
             . '</li>';

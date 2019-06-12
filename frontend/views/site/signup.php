@@ -102,9 +102,9 @@ text-decoration:none;
           <div><img src="<?= yii\helpers\Url::base().'/gambar/logos.jpg' ?>" width="100%"></div>
           <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
-              <div class="form-group"><?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?></div>
+              <div class="form-group"><?= $form->field($model, 'nrp')->textInput(['autofocus' => true]) ?></div>
 
-                <div class="form-group"><?= $form->field($model, 'email') ?></div>
+                <div class="form-group"><?= $form->field($model, 'nama') ?></div>
 
                 <div class="form-group"><?= $form->field($model, 'password')->passwordInput() ?></div>
               <div class="form-group">

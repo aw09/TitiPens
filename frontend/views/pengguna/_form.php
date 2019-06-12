@@ -12,7 +12,6 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'hak_akses')->textInput() ?>
 
     <?= $form->field($model, 'nrp')->textInput() ?>
 
@@ -26,7 +25,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'rating')->textInput() ?>
 
-    <?= $form->field($model, 'password')->passwordInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'password')->passwordInput(['maxlength' => true])->textInput(['readonly' => true, 'value' => '']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

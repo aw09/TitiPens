@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model frontend\models\Pengguna */
 
 $this->title = 'Create Pengguna';
-$this->params['breadcrumbs'][] = ['label' => 'Penggunas', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Pengguna', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="pengguna-create">

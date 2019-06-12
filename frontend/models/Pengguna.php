@@ -8,7 +8,6 @@ use Yii;
  * This is the model class for table "pengguna".
  *
  * @property int $iduser
- * @property int $hak_akses
  * @property int $nrp
  * @property string $nama
  * @property string $jurusan
@@ -37,8 +36,8 @@ class Pengguna extends \yii\db\ActiveRecord implements \yii\web\IdentityInterfac
     public function rules()
     {
         return [
-            [['nrp', 'nama', 'jurusan', 'angkatan', 'password'], 'required'],
-            [['hak_akses', 'nrp', 'angkatan'], 'integer'],
+            [['nrp', 'nama', 'password'], 'required'],
+            [['nrp', 'angkatan'], 'integer'],
             [['rating'], 'number'],
             [['nama', 'foto'], 'string', 'max' => 255],
             [['jurusan', 'password'], 'string', 'max' => 50],
@@ -52,7 +51,6 @@ class Pengguna extends \yii\db\ActiveRecord implements \yii\web\IdentityInterfac
     {
         return [
             'iduser' => 'Iduser',
-            'hak_akses' => 'Hak Akses',
             'nrp' => 'Nrp',
             'nama' => 'Nama',
             'jurusan' => 'Jurusan',
@@ -112,5 +110,9 @@ class Pengguna extends \yii\db\ActiveRecord implements \yii\web\IdentityInterfac
 
     public function validatePassword($password){
 	     return $this->password === sha1($password);
+    }
+    public function setPassword($password)
+    {
+        $this->password = sha1($password);
     }
 }

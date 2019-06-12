@@ -4,14 +4,15 @@ namespace frontend\models;
 use Yii;
 use yii\base\Model;
 use common\models\User;
+use frontend\models\Pengguna;
 
 /**
  * Signup form
  */
 class SignupForm extends Model
 {
-    public $username;
-    public $email;
+    public $nrp;
+    public $nama;
     public $password;
 
 
@@ -21,16 +22,14 @@ class SignupForm extends Model
     public function rules()
     {
         return [
-            ['username', 'trim'],
-            ['username', 'required'],
-            ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
-            ['username', 'string', 'min' => 2, 'max' => 255],
+            ['nrp', 'trim'],
+            ['nrp', 'required'],
+            ['nrp', 'unique', 'targetClass' => '\frontend\models\Pengguna', 'message' => 'This nrp has already been taken.'],
+            ['nrp', 'string', 'min' => 2, 'max' => 255],
 
-            ['email', 'trim'],
-            ['email', 'required'],
-            ['email', 'email'],
-            ['email', 'string', 'max' => 255],
-            ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
+            ['nama', 'trim'],
+            ['nama', 'required'],
+            ['nama', 'string', 'max' => 255],
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
@@ -40,21 +39,20 @@ class SignupForm extends Model
     /**
      * Signs user up.
      *
-     * @return bool whether the creating new account was successful and email was sent
+     * @return bool whether the creating new account was successful and nama was sent
      */
     public function signup()
     {
         if (!$this->validate()) {
+            echo "GAGAL";
             return null;
         }
-        
-        $user = new User();
-        $user->username = $this->username;
-        $user->email = $this->email;
+        echo "Berhasil";
+        $user = new Pengguna();
+        $user->nrp = $this->nrp;
+        $user->nama = $this->nama;
         $user->setPassword($this->password);
-        $user->generateAuthKey();
-        $user->generateEmailVerificationToken();
-        return $user->save() && $this->sendEmail($user);
+        return $user->save(false);
 
     }
 

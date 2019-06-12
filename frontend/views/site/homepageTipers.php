@@ -28,13 +28,13 @@ use yii\helpers\Html;
           $nums_row=0;
           foreach ($model as $key) {
             if($key->user_id == Yii::$app->user->identity->iduser)
-            $idOrder = $key -> idordertipers;
+            //$idOrder = $key -> idordertipers;
             $nums_row++;
           }
            if($nums_row==0){ ?>
           <button class="button" data-toggle="modal" data-target="#myModal">Make Your Titipan</button>
         <?php }else { ?>
-          <?= Html::a('Detail Titipan', [$idOrder], ['class'=>'btn btn-primary btn-block']) ?>
+          <?= Html::a('Detail Titipan', ['view', 'id' => $key->idordercustomer], ['class'=>'btn btn-primary btn-block']) ?>
          <?php } ?>
         </p>
       </div>

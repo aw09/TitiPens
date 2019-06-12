@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel frontend\models\PenggunaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Penggunas';
+$this->title = 'Pengguna';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="pengguna-index">
@@ -27,7 +27,6 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'iduser',
-            'hak_akses',
             'nrp',
             'nama',
             'jurusan',
