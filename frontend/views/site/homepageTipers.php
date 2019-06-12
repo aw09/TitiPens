@@ -34,8 +34,8 @@ use yii\helpers\Html;
            if($nums_row==0){ ?>
           <button class="button" data-toggle="modal" data-target="#myModal">Make Your Titipan</button>
         <?php }else { ?>
-          <?= Html::a('Detail Titipan', ['view', 'id' => $key->idordercustomer], ['class'=>'btn btn-primary btn-block']) ?>
-         <?php } ?>
+          <?= Html::a('Detail Titipan', ['view', 'id' => $key->idordertipers], ['class'=>'btn btn-primary btn-block']) ?>
+        <?php } ?>
         </p>
       </div>
       </div>

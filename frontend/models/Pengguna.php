@@ -25,6 +25,8 @@ class Pengguna extends \yii\db\ActiveRecord implements \yii\web\IdentityInterfac
     /**
      * {@inheritdoc}
      */
+
+     public $foto;
     public static function tableName()
     {
         return 'pengguna';
@@ -39,7 +41,8 @@ class Pengguna extends \yii\db\ActiveRecord implements \yii\web\IdentityInterfac
             [['nrp', 'nama', 'password'], 'required'],
             [['nrp', 'angkatan'], 'integer'],
             [['rating'], 'number'],
-            [['nama', 'foto'], 'string', 'max' => 255],
+            [['nama'], 'string', 'max' => 255],
+            [['foto'], 'file'],
             [['jurusan', 'password'], 'string', 'max' => 50],
         ];
     }

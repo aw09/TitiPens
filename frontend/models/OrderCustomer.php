@@ -8,15 +8,18 @@ use Yii;
  * This is the model class for table "order_customer".
  *
  * @property int $idordercustomer
+ * @property int $ordertipers_id
  * @property string $tanggal
  * @property int $user_id
  * @property string $lokasi
  * @property string $catatan
  * @property int $total
+ * @property int $status_id
  *
  * @property Pengguna $user
+ * @property OrderTipers $ordertipers
+ * @property Status $status
  * @property OrderItemCustomer[] $orderItemCustomers
- * @property StatusOrder[] $statusOrders
  */
 class OrderCustomer extends \yii\db\ActiveRecord
 {
@@ -34,12 +37,14 @@ class OrderCustomer extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['tanggal', 'user_id', 'lokasi', 'catatan', 'total'], 'required'],
+            [['ordertipers_id', 'user_id', 'lokasi', 'catatan', 'total', 'status_id'], 'required'],
+            [['ordertipers_id', 'user_id', 'total', 'status_id'], 'integer'],
             [['tanggal'], 'safe'],
-            [['user_id', 'total'], 'integer'],
             [['catatan'], 'string'],
             [['lokasi'], 'string', 'max' => 255],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Pengguna::className(), 'targetAttribute' => ['user_id' => 'iduser']],
+            [['ordertipers_id'], 'exist', 'skipOnError' => true, 'targetClass' => OrderTipers::className(), 'targetAttribute' => ['ordertipers_id' => 'idordertipers']],
+            [['status_id'], 'exist', 'skipOnError' => true, 'targetClass' => Status::className(), 'targetAttribute' => ['status_id' => 'idstatus']],
         ];
     }
 
@@ -50,11 +55,13 @@ class OrderCustomer extends \yii\db\ActiveRecord
     {
         return [
             'idordercustomer' => 'Idordercustomer',
+            'ordertipers_id' => 'Ordertipers ID',
             'tanggal' => 'Tanggal',
             'user_id' => 'User ID',
             'lokasi' => 'Lokasi',
             'catatan' => 'Catatan',
             'total' => 'Total',
+            'status_id' => 'Status ID',
         ];
     }
 
@@ -69,16 +76,24 @@ class OrderCustomer extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getOrderItemCustomers()
+    public function getOrdertipers()
     {
-        return $this->hasMany(OrderItemCustomer::className(), ['ordercustomer_id' => 'idordercustomer']);
+        return $this->hasOne(OrderTipers::className(), ['idordertipers' => 'ordertipers_id']);
     }
 
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getStatusOrders()
+    public function getStatus()
     {
-        return $this->hasMany(StatusOrder::className(), ['ordercustomer_id' => 'idordercustomer']);
+        return $this->hasOne(Status::className(), ['idstatus' => 'status_id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getOrderItemCustomers()
+    {
+        return $this->hasMany(OrderItemCustomer::className(), ['ordercustomer_id' => 'idordercustomer']);
     }
 }

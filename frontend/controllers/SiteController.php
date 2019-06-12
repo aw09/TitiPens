@@ -17,6 +17,9 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use frontend\models\OrderCustomer;
+use frontend\models\OrderItemCustomer;
+use frontend\models\MenuWarung;
 use frontend\models\Order_Tipers;
 use aryelds\sweetalert\SweetAlert;
 
@@ -158,6 +161,7 @@ class SiteController extends Controller
     {
         return $this->render('view', [
             'model' => OrderTipers::findOne($id),
+            'order' => OrderCustomer::find()->all()
         ]);
     }
     /**
@@ -186,27 +190,29 @@ class SiteController extends Controller
           $namalokasi = ArrayHelper::map($namalokasi, 'idlokasi','name');
           if ($modelOrder->load(Yii::$app->request->post()) ) {
               $modelOrder->user_id=1;
-              $modelOrder->save();
               $url = $modelOrder->idordertipers;
-              echo SweetAlert::widget([
-                  'options' => [
-                      'title' => "Order berhasil dibuat",
-                      'type' => SweetAlert::TYPE_SUCCESS,
-                      'showCancelButton' => true,
-                      'confirmButtonColor' => "#DD6B55",
-                      'confirmButtonText' => "Detail",
-                      'cancelButtonText' => "Close",
-                      'closeOnConfirm' => false,
-                      'closeOnCancel' => true
-                  ],
-                  'callbackJs' => new \yii\web\JsExpression('function(isConfirm) {
-                      if (isConfirm) {
-                          window.location.href = "'.$url.'";
-                      } else {
-                          swal("Cancelled", "Your imaginary file is safe :)", "error");
-                      }
-                  }')
-              ]);
+              if ($modelOrder->save(false)) {
+                echo SweetAlert::widget([
+                    'options' => [
+                        'title' => "Order berhasil dibuat",
+                        'type' => SweetAlert::TYPE_SUCCESS,
+                        'showCancelButton' => true,
+                        'confirmButtonColor' => "#DD6B55",
+                        'confirmButtonText' => "Detail",
+                        'cancelButtonText' => "Close",
+                        'closeOnConfirm' => false,
+                        'closeOnCancel' => true
+                    ],
+                    'callbackJs' => new \yii\web\JsExpression('function(isConfirm) {
+                        if (isConfirm) {
+                            window.location.href = "'.$url.'";
+                        } else {
+                            swal("Cancelled", "Your imaginary file is safe :)", "error");
+                        }
+                    }')
+                ]);
+              }
+
 
             //return $this->redirect(['view', 'id' => $modelOrder->idordertipers]);
           }
@@ -256,6 +262,19 @@ class SiteController extends Controller
           ]);
     }
 
+    public function actionDetail($id) {
+      $itemId = array();
+      $orderItem = OrderItemCustomer::find()->select(['menuwarung_id'])->where(['ordercustomer_id'=>$id])->all();
+      for($i = 0; $i < count($orderItem); $i++){
+        $itemId[] = $orderItem[$i]->menuwarung_id;
+      }
+      $item = MenuWarung::find()->where(['idmenu'=>$itemId])->all();
+      return $this->render('detail', [
+          'item' => $item,
+          'model' => OrderCustomer::find()->all(),
+          'id' => $id,
+      ]);
+    }
     /**
      * Requests password reset.
      *

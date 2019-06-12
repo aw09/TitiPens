@@ -21,11 +21,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'angkatan')->textInput() ?>
 
-    <?= $form->field($model, 'foto')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'foto')->fileInput() ?>
 
     <?= $form->field($model, 'rating')->textInput() ?>
 
-    <?= $form->field($model, 'password')->passwordInput(['maxlength' => true])->textInput(['readonly' => true, 'value' => '']) ?>
+    <?= $form->field($model, 'password')->passwordInput(['maxlength' => true, 'value'=>''])->hint('Password harus lebih dari 6 karakter') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

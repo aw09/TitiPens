@@ -8,6 +8,14 @@ use yii\widgets\DetailView;
 
 $this->title = $model->idordertipers;
 \yii\web\YiiAsset::register($this);
+
+$nums_row=0;
+foreach ($order as $key) {
+  if($key->ordertipers_id==$model->idordertipers)
+    $nums_row++;
+
+}
+
 ?>
 <style>
   .button{
@@ -32,7 +40,10 @@ $this->title = $model->idordertipers;
 
     <p>
         <?= Html::a('Update', ['update', 'id' => $model->idordertipers], ['class' => 'btn buttonpilih']) ?>
-        <?= Html::a('Delete', ['delete', 'id' => $model->idordertipers], ['class' => 'btn buttonpilih']) ?>
+        <?php
+        if($nums_row==0)
+          echo Html::a('Delete', ['delete', 'id' => $model->idordertipers], ['class' => 'btn buttonpilih'])
+        ?>
     </p>
 
     <?= DetailView::widget([
@@ -46,24 +57,26 @@ $this->title = $model->idordertipers;
             'tanggal',
         ],
     ]) ?>
-
+<?php
+if($nums_row!=0){ ?>
     <div class="col-lg-12">
       <div class="row" style="height:150px;">
         <div class="col-md-3"></div>
         <div class="col-md-5">
           <div class="panel panel-default" style="width:600px;">
             <div class="panel-heading" style="background-color:rgb(0,0,0);">
-              <h5 class="mb-0" style="color:#ffffff;"><b>NAMA CUSTOMER</b></h5>
+              <h5 class="mb-0" style="color:#ffffff;"><b><?= $key->user->nama ?> </b></h5>
             </div>
             <div class="panel-body">
-              <p style="color:#000000;">Lokasi	: </p>
-              <p style="color:#000000;">Catatan: </p>
-              <?= Html::a('Detail', ['/warung/index'], ['class' => 'button buttonpilih']) ?>
+              <p style="color:#000000;">Lokasi	: <?= $key->lokasi ?></p>
+              <p style="color:#000000;">Catatan: <?= $key->catatan  ?> </p>
+              <?= Html::a('Detail', ['detail', 'id' => $key->idordercustomer], ['class' => 'button buttonpilih']) ?>
             </div>
           </div>
         </div>
         <div class="col-md-4"></div>
       </div>
     </div>
+  <?php } ?>
 
 </div>

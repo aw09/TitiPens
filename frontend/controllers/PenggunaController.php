@@ -8,6 +8,7 @@ use frontend\models\PenggunaSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * PenggunaController implements the CRUD actions for Pengguna model.
@@ -85,10 +86,16 @@ class PenggunaController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
-
+        $password = $model->password;
         if ($model->load(Yii::$app->request->post())) {
+            $model->file = UploadedFile::getInstance($model, 'foto');
+            $model->file->saveAs('uploads/' . $model->file->baseName . '.' . $model->file->extension);
+
             $request=Yii::$app->request->post('Pengguna')['password'];
-            $model->password = sha1($request);
+            if(strlen($request)>5)
+              $model->password = sha1($request);
+            else
+              $model->password=$password;
             $model->save();
             return $this->redirect(['view', 'id' => $model->iduser]);
         }

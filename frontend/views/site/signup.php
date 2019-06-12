@@ -107,6 +107,8 @@ text-decoration:none;
                 <div class="form-group"><?= $form->field($model, 'nama') ?></div>
 
                 <div class="form-group"><?= $form->field($model, 'password')->passwordInput() ?></div>
+
+                <div class="form-group"><?= $form->field($model, 'password_repeat')->passwordInput() ?></div>
               <div class="form-group">
                   <?= Html::submitButton('Signup', ['class' => 'btn btn-primary btn-block', 'name' => 'signup-button']) ?>
               </div>

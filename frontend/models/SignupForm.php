@@ -14,7 +14,7 @@ class SignupForm extends Model
     public $nrp;
     public $nama;
     public $password;
-
+    public $password_repeat;
 
     /**
      * {@inheritdoc}
@@ -33,6 +33,7 @@ class SignupForm extends Model
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
+            ['password_repeat', 'compare', 'compareAttribute'=>'password', 'message'=>"Passwords don't match" ],
         ];
     }
 
@@ -44,10 +45,8 @@ class SignupForm extends Model
     public function signup()
     {
         if (!$this->validate()) {
-            echo "GAGAL";
             return null;
         }
-        echo "Berhasil";
         $user = new Pengguna();
         $user->nrp = $this->nrp;
         $user->nama = $this->nama;
