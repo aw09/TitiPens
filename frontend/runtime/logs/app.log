@@ -20816,3 +20816,78 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1560362141.516
     'REQUEST_TIME' => 1560362141
 ]
+2019-06-12 21:26:36 [::1][-][o5golnqa3jh52ovgncot576r97][error][ParseError] ParseError: syntax error, unexpected '=', expecting ']' in E:\Xampp\htdocs\TitiPens\frontend\views\layouts\main.php:41
+Stack trace:
+#0 E:\Xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('E:\\Xampp\\htdocs...', Array)
+#1 E:\Xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('E:\\Xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 E:\Xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 E:\Xampp\htdocs\TitiPens\frontend\controllers\SiteController.php(83): yii\base\Controller->render('index')
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 E:\Xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 E:\Xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 E:\Xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 E:\Xampp\htdocs\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 E:\Xampp\htdocs\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 E:\Xampp\htdocs\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2019-06-12 21:26:36 [::1][-][o5golnqa3jh52ovgncot576r97][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'o5golnqa3jh52ovgncot576r97'
+    '_csrf-frontend' => 'ef601666e77536cd831f704cce91f9507c0e62b4d5d31491f22deb86aaea2998a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"z0GCf4NUqymkrVv4HmjiGvwZZdLbsalh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/Xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/Xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/TitiPens/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=o5golnqa3jh52ovgncot576r97; _csrf-frontend=ef601666e77536cd831f704cce91f9507c0e62b4d5d31491f22deb86aaea2998a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22z0GCf4NUqymkrVv4HmjiGvwZZdLbsalh%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\instantclient_11_2;E:\\Xampp\\php;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\composer;C:\\Windows\\py.exe;C:\\Program Files\\OpenVPN\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;E:\\instantclient_11_2;C:\\Users\\Lenovo\\AppData\\Local\\atom\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\jre1.8.0_181\\bin;set PATH=C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\instantclient_11_2;E:\\Xampp\\php;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\composer;C:\\Windows\\py.exe;C:\\Program Files\\OpenVPN\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;%JAVA_HOME%\\bin;C:\\Users\\Lenovo\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/Xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Xampp/htdocs/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '59620'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/TitiPens/frontend/web/'
+    'SCRIPT_NAME' => '/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560367596.45
+    'REQUEST_TIME' => 1560367596
+]
