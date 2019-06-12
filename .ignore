@@ -41,7 +41,9 @@ phpunit.phar
 /backend/web/index.php
 /backend/web/index-test.php
 /backend/web/robots.txt
-**/debug
+/frontend/runtime/debug
+/frontend/runtime/logs
+/backend/runtime/debug
+/backend/runtime/logs
 **/logs
-runtime/**
 *.log
