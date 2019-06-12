@@ -6,7 +6,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
-
+use backend\models\Pengguna;
 /**
  * Site controller
  */
@@ -60,7 +60,10 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $users = Pengguna::find()->all();
+        return $this->render('index', [
+            'users' => $users,
+        ]);
     }
 
     /**

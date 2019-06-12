@@ -49,7 +49,7 @@ class OrderTipers extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idordertipers' => 'Idordertipers',
+            'idordertipers' => 'Id Order',
             'fee' => 'Fee',
             'lokasi_id' => 'Lokasi ID',
             'user_id' => 'User ID',
