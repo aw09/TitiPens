@@ -20726,3 +20726,93 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1560356341.758
     'REQUEST_TIME' => 1560356341
 ]
+2019-06-12 19:55:41 [::1][1][3aci9qabjk6bi58qc0882nnag9][error][Error] Error: Class 'frontend\models\Keranjang' not found in D:\Apps\Xampp\htdocs\yiipro\TitiPens\frontend\controllers\WarungController.php:161
+Stack trace:
+#0 [internal function]: frontend\controllers\WarungController->actionKeranjang('3')
+#1 D:\Apps\Xampp\htdocs\yiipro\TitiPens\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\Apps\Xampp\htdocs\yiipro\TitiPens\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\Apps\Xampp\htdocs\yiipro\TitiPens\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('keranjang', Array)
+#4 D:\Apps\Xampp\htdocs\yiipro\TitiPens\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('warung/keranjan...', Array)
+#5 D:\Apps\Xampp\htdocs\yiipro\TitiPens\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\Apps\Xampp\htdocs\yiipro\TitiPens\frontend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-06-12 19:55:41 [::1][1][3aci9qabjk6bi58qc0882nnag9][info][application] $_GET = [
+    'id' => '3'
+    'idmenu' => '3'
+    'quantity' => '3'
+    'button' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"k8T_Src-Vw7GdpTe337Zz802upmvjM2y\",2592000]\";}'
+    'advanced-backend' => '9vpp5ph07hh3b0vq1vv1ph2l1e'
+    '_csrf-backend' => 'a06eb2c2ec8ca658da237efebbe44c6a70e997be8396e5e7a8c9d8f7030c1e2fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"k0DfKW5I-aOs39BtgUc9SLdNdTwn_AAA\";}'
+    'advanced-frontend' => '3aci9qabjk6bi58qc0882nnag9'
+    '_identity-frontend' => '2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+    '_csrf-frontend' => '02d412a41b6acbeebfe157d1b388e2358eaedf23fd061e2f664b986d29c83ab5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"cRbbQH0qrgKjuSPY4CHulozI25MNozDD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'role' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/Apps/Xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/Apps/Xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/Apps/Xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Apps/Xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/yiipro/TitiPens/frontend/web/warung/menu/2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=f6f363b25ccb913aa786397be0f94cc16b4584da2959f049a3ad08215ad62bd7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22k8T_Src-Vw7GdpTe337Zz802upmvjM2y%22%2C2592000%5D%22%3B%7D; advanced-backend=9vpp5ph07hh3b0vq1vv1ph2l1e; _csrf-backend=a06eb2c2ec8ca658da237efebbe44c6a70e997be8396e5e7a8c9d8f7030c1e2fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22k0DfKW5I-aOs39BtgUc9SLdNdTwn_AAA%22%3B%7D; advanced-frontend=3aci9qabjk6bi58qc0882nnag9; _identity-frontend=2b695975b8368b2f4c2a2a61a8c394cba6ce138f5d41d568a5898aba3582d68ea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D; _csrf-frontend=02d412a41b6acbeebfe157d1b388e2358eaedf23fd061e2f664b986d29c83ab5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22cRbbQH0qrgKjuSPY4CHulozI25MNozDD%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\DISK1\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jdk-9.0.4\\bin;\";\"C:\\WINDOWS\\system64;C:\\WINDOWS;C:\\Program Files\\Java\\jdk1.8.0\\bin\";\"C:\\Program Files\\Java\\jre-10.0.1\\bin;\";D:\\Apps\\Xampp\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\composer;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\dotnet\\;C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps;C:\\instantclient_11_2;C:\\Program Files\\Java\\jdk-9.0.4\\bin;C:\\Users\\ASUS\\AppData\\Roaming\\Composer\\vendor\\bin;;C:\\Users\\ASUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ASUS\\AppData\\Local\\.meteor;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Apps/Xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Apps/Xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Apps/Xampp/htdocs/yiipro/TitiPens/frontend/web/index.php'
+    'REMOTE_PORT' => '21953'
+    'REDIRECT_URL' => '/yiipro/TitiPens/frontend/web/warung/keranjang/3'
+    'REDIRECT_QUERY_STRING' => 'idmenu=3&quantity=3&button='
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'idmenu=3&quantity=3&button='
+    'REQUEST_URI' => '/yiipro/TitiPens/frontend/web/warung/keranjang/3?idmenu=3&quantity=3&button='
+    'SCRIPT_NAME' => '/yiipro/TitiPens/frontend/web/index.php'
+    'PHP_SELF' => '/yiipro/TitiPens/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1560362141.516
+    'REQUEST_TIME' => 1560362141
+]
