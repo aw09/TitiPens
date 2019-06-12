@@ -26,15 +26,22 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-
+<style>
+ .tes{
+    margin-top: -30px;
+ }
+ .skuy{
+   padding-top: 30px;
+ }
+</style>
 <div class="wrap">
     <?php
     NavBar::begin(
       [
-        'brandLabel' => Html::img('@web/gambar/titip1.png', ['alt'=>Yii::$app->name, 'width'=>"10%", 'height'=>"30px"]),
+        'brandLabel' => Html::img('@web/gambar/titip1.png', ['alt'=>Yii::$app->name, 'width'=>"10%", 'class'=>"skuy"]),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
+            'class' => 'navbar-inverse navbar-fixed-top tes',
         ],
     ]);
     if (Yii::$app->user->isGuest) {
