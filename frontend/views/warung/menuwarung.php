@@ -2,6 +2,8 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\bootstrap\ActiveForm;
+
 
 /* @var $this yii\web\View */
 /* @var $searchModel frontend\models\WarungSearch */
@@ -9,6 +11,55 @@ use yii\grid\GridView;
 
 $this->title = 'Warung';
 $this->params['breadcrumbs'][] = $this->title;
+
+if(isset($_POST["post"]))
+ {
+      if(isset($_SESSION["shopping_cart"]))
+      {
+           $item_array_id = array_column($_SESSION["shopping_cart"], "item_id");
+           if(!in_array($_GET["id"], $item_array_id))
+           {
+                $count = count($_SESSION["shopping_cart"]);
+                $item_array = array(
+                     'item_id'               =>     $_GET["id"],
+                     'item_name'               =>     $_POST["hidden_name"],
+                     'item_price'          =>     $_POST["hidden_price"],
+                     'item_quantity'          =>     $_POST["quantity"]
+                );
+                $_SESSION["shopping_cart"][$count] = $item_array;
+           }
+           else
+           {
+                echo '<script>alert("Item Already Added")</script>';
+                echo '<script>window.location="index.php"</script>';
+           }
+      }
+      else
+      {
+           $item_array = array(
+                'item_id'               =>     $_GET["id"],
+                'item_name'               =>     $_POST["hidden_name"],
+                'item_price'          =>     $_POST["hidden_price"],
+                'item_quantity'          =>     $_POST["quantity"]
+           );
+           $_SESSION["shopping_cart"][0] = $item_array;
+      }
+ }
+ if(isset($_GET["action"]))
+ {
+      if($_GET["action"] == "delete")
+      {
+           foreach($_SESSION["shopping_cart"] as $keys => $values)
+           {
+                if($values["item_id"] == $_GET["id"])
+                {
+                     unset($_SESSION["shopping_cart"][$keys]);
+                     echo '<script>alert("Item Removed")</script>';
+                     echo '<script>window.location="index.php"</script>';
+                }
+           }
+      }
+ }
 ?>
 <html>
 
@@ -71,17 +122,28 @@ $this->params['breadcrumbs'][] = $this->title;
                     <span class="glyphicon glyphicon-minus"></span>
                   </button>
                   </span>
-                  <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="100">
-                    <span class="input-group-btn">
-                        <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
-                          <span class="glyphicon glyphicon-plus"></span>
-                        </button>
-                    </span>
+                 <!-- $form = ActiveForm::begin(['id' => 'login-form']);  -->
+                 <form class="" action="<?php echo Yii::$app->request->baseUrl; ?>/warung/keranjang/<?php echo $data->idmenu  ?>" method="get">
+                   <!--<?= Html::a(' CheckOut', ['CreateKeranjang', 'id'=>$data->idmenu], ['class' => 'glyphicon glyphicon-shopping-cart btn btn-warning ']) ?>-->
+                   <input type="hidden" name="idmenu" value="<?php echo "$data->idmenu"; ?>">
+                   <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                   <br>
+                   <br>
+                   <button type="submit" name="button" class="glyphicon glyphicon-shopping-cart btn btn-warning">Tambah</button>
+                   <!--<?= Html::a(' CheckOut', ['warung', 'id'=>$data->idmenu], ['class' => 'glyphicon glyphicon-shopping-cart btn btn-warning ']) ?>-->
 
-                </div>
-                <br>
-                <?= Html::a(' CheckOut', ['keranjang', 'id'=>$data->idmenu], ['class' => 'glyphicon glyphicon-shopping-cart btn btn-warning ']) ?>
-            </center>
+                 </form>
+                 <span class="input-group-btn">
+                     <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                       <span class="glyphicon glyphicon-plus"></span>
+                     </button>
+                 </span>
+                  <!-- <? //$form->field($models, 'jml_beli')->textInput(['class' => 'form-control input-number', 'id' => 'quantity', 'value' => '0', 'min' => '1', 'max' => '100']) ?> -->
+                  <?php //ActiveForm::end(); ?>
+
+              </div>
+
+          </center>
           </div>
           <?php } ?>
         </div>

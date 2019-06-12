@@ -5,8 +5,9 @@ namespace frontend\controllers;
 use Yii;
 use frontend\models\Warung;
 use frontend\models\WarungSearch;
+use frontend\models\Keranjang;
+use frontend\models\Pengguna;
 use frontend\models\MenuWarung;
-use frontend\models\OrderTipers;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -36,9 +37,8 @@ class WarungController extends Controller
      * Lists all Warung models.
      * @return mixed
      */
-    public function actionIndex($id)
+    public function actionIndex()
     {
-        $_SESSION['idordertipers'] = OrderTipers::findOne($id);
         $searchModel = new WarungSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
@@ -79,6 +79,18 @@ class WarungController extends Controller
         ]);
     }
 
+    public function actionCreateKeranjang()
+    {
+        $model = new Keranjang();
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['order', 'id' => $model->idkeranjang]);
+        }
+
+        return $this->render('CreateKeranjang', [
+            'model' => $model,
+        ]);
+    }
     /**
      * Updates an existing Warung model.
      * If update is successful, the browser will be redirected to the 'view' page.
@@ -143,4 +155,22 @@ class WarungController extends Controller
   			'dataProvider' => $provider,
   			'models' => $warung]);
     }
+
+    public function actionKeranjang($id)
+    {
+      $keranjang = new Keranjang();
+      $item = new MenuWarung();
+      $pengguna = new Pengguna();
+      $keranjang->menuwarung_id = $id;
+      $item->idmenu = Yii::$app->request->get('idmenu');
+      $keranjang->user_id = Yii::$app->user->getId();
+      $keranjang->jml_beli = Yii::$app->request->get('quantity');
+      $keranjang->save(false);
+
+      //echo $item->idmenu;
+      //echo $keranjang->jml_beli;
+
+        return $this->redirect(['order-customer/create']);
+    }
+
 }
