@@ -15,6 +15,8 @@ return array(
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
     'yii2mod\\alert\\' => array($vendorDir . '/yii2mod/yii2-sweet-alert'),
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
+    'kartik\\touchspin\\' => array($vendorDir . '/kartik-v/yii2-widget-touchspin/src'),
+    'kartik\\base\\' => array($vendorDir . '/kartik-v/yii2-krajee-base/src'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
     'aryelds\\sweetalert\\' => array($vendorDir . '/aryelds/yii2-sweet-alert'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),

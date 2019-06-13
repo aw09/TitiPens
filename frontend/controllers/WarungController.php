@@ -12,6 +12,8 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\data\ActiveDataProvider;
+use frontend\models\OrderTipers;
+
 
 /**
  * WarungController implements the CRUD actions for Warung model.
@@ -37,8 +39,9 @@ class WarungController extends Controller
      * Lists all Warung models.
      * @return mixed
      */
-    public function actionIndex()
+    public function actionIndex($id)
     {
+        $_SESSION['idordertipers'] = OrderTipers::findOne($id);
         $searchModel = new WarungSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
@@ -153,10 +156,11 @@ class WarungController extends Controller
     		]);
         return $this->render('menuwarung', [
   			'dataProvider' => $provider,
+        'idwarung' => $id,
   			'models' => $warung]);
     }
 
-    public function actionKeranjang($id)
+    public function actionKeranjang($id, $idwarung)
     {
       $keranjang = new Keranjang();
       $item = new MenuWarung();
@@ -164,13 +168,37 @@ class WarungController extends Controller
       $keranjang->menuwarung_id = $id;
       $item->idmenu = Yii::$app->request->get('idmenu');
       $keranjang->user_id = Yii::$app->user->getId();
-      $keranjang->jml_beli = Yii::$app->request->get('quantity');
-      $keranjang->save(false);
+      $cek=0;
+      $cekKeranjang = Keranjang::find()->all();
+      foreach ($cekKeranjang as $key) {
+        if ($key->menuwarung_id == $id && $key->user_id ==Yii::$app->user->getId()) {
+          $cek=1;
+          $idkeranjang = $key->idkeranjang;
+        }
+      }
 
-      //echo $item->idmenu;
-      //echo $keranjang->jml_beli;
-
-        return $this->redirect(['order-customer/create']);
+      if($cek==1){
+        $cekKeranjang = Keranjang::findOne($idkeranjang);
+        $cekKeranjang->jml_beli = $cekKeranjang->jml_beli+1;
+        $cekKeranjang->save();
+      }
+      else{
+        $keranjang->jml_beli = 1;
+        $keranjang->save(false);
+      }
+      return $this->redirect(['menu', 'id' => $idwarung]);
     }
 
+    public function actionList() {
+        $itemId = array();
+        $keranjang = Keranjang::find()->select(['menuwarung_id'])->where(['user_id'=>Yii::$app->user->getId()])->all();
+        for($i = 0; $i < count($keranjang); $i++) {
+            $itemId[] = $keranjang[$i]->menuwarung_id;
+        }
+        $item = MenuWarung::find()->where(['idmenu'=>$itemId])->all();
+
+        return $this->render('keranjang', [
+          'item' => $item,
+        ]);
+    }
 }

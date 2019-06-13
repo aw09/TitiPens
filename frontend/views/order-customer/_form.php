@@ -92,7 +92,7 @@ use frontend\models\OrderCustomer;
               <div class="form-group"><?= $form->field($model, 'lokasi')->textInput(['maxlength' => true]) ?></div>
               <div class="form-group"><?= $form->field($model, 'catatan')->textarea(['rows' => 6]) ?></div>
               <div class="form-group">
-                  <?= Html::submitButton('Save', ['class' => 'btn btn-primary btn-block']) ?>
+                  <?= Html::a('Save', ['buat'], ['class' => 'btn btn-primary btn-block']) ?>
                   <?= Html::a('Cancel', ['index'], ['class'=>'btn btn-primary btn-block']) ?>
               </div>
           <?php ActiveForm::end(); ?>

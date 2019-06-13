@@ -5,6 +5,7 @@ use yii\grid\GridView;
 use yii\bootstrap\ActiveForm;
 
 
+
 /* @var $this yii\web\View */
 /* @var $searchModel frontend\models\WarungSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
@@ -117,27 +118,13 @@ if(isset($_POST["post"]))
               </a>
               <br>
               <div class="input-group">
-                  <span class="input-group-btn">
-                  <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
-                    <span class="glyphicon glyphicon-minus"></span>
-                  </button>
-                  </span>
-                 <!-- $form = ActiveForm::begin(['id' => 'login-form']);  -->
-                 <form class="" action="<?php echo Yii::$app->request->baseUrl; ?>/warung/keranjang/<?php echo $data->idmenu  ?>" method="get">
-                   <!--<?= Html::a(' CheckOut', ['CreateKeranjang', 'id'=>$data->idmenu], ['class' => 'glyphicon glyphicon-shopping-cart btn btn-warning ']) ?>-->
-                   <input type="hidden" name="idmenu" value="<?php echo "$data->idmenu"; ?>">
-                   <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
-                   <br>
-                   <br>
-                   <button type="submit" name="button" class="glyphicon glyphicon-shopping-cart btn btn-warning">Tambah</button>
-                   <!--<?= Html::a(' CheckOut', ['warung', 'id'=>$data->idmenu], ['class' => 'glyphicon glyphicon-shopping-cart btn btn-warning ']) ?>-->
 
+                 <!-- $form = ActiveForm::begin(['id' => 'login-form']);  -->
+                 <form class="" action="<?php echo Yii::$app->request->baseUrl; ?>/warung/keranjang/ <?php echo $data->idmenu  ?>" method="get">
+                   <input type="hidden" name="idmenu" value="<?php echo "$data->idmenu"; ?>">
+                   <?= Html::a(' CheckOut', ['/warung/keranjang', 'id'=>$data->idmenu, 'idwarung' => $idwarung], ['class' => 'glyphicon glyphicon-shopping-cart btn btn-warning']) ?>
                  </form>
-                 <span class="input-group-btn">
-                     <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
-                       <span class="glyphicon glyphicon-plus"></span>
-                     </button>
-                 </span>
+
                   <!-- <? //$form->field($models, 'jml_beli')->textInput(['class' => 'form-control input-number', 'id' => 'quantity', 'value' => '0', 'min' => '1', 'max' => '100']) ?> -->
                   <?php //ActiveForm::end(); ?>
 
@@ -149,5 +136,6 @@ if(isset($_POST["post"]))
         </div>
     </div>
 </div>
+
 </body>
 </html>

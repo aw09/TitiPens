@@ -55,12 +55,13 @@ AppAsset::register($this);
     else if(isset($_SESSION['role'])) {
         if($_SESSION['role'] == 1){
           $menuItems[] = ['label' => "as Tipers", 'url' => ['/site/tipers']];
-          $menuItems[] = ['label' => Yii::$app->user->identity->nama, 'url' => ['/pengguna/'.Yii::$app->user->identity->iduser]];
         }
         else{
-          $menuItems[] = ['label' => "as Customer"];
-          $menuItems[] = ['label' => Yii::$app->user->identity->nama, 'url' => ['/site/customer']];
+          $menuItems[] = ['label' => "as Customer", 'url' => ['/site/customer']];
+          $menuItems[] = ['label' => "Cart", 'url' => ['/warung/list']];
         }
+        $menuItems[] = ['label' => Yii::$app->user->identity->nama, 'url' => ['/pengguna/'.Yii::$app->user->identity->iduser]];
+
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton('Logout', ['class' => 'btn btn-link logout'])
